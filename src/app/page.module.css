@@ -1,0 +1,76 @@
+.page {
+  --background: #fadab3;
+  --foreground: #fadab3;
+  --bg-faded: rgba(130, 79, 13, 0.102);
+  --text-primary: #000;
+  --text-secondary: #a0743e;
+  --title-span: #cd2718;
+  --button-secondary-border: #ebebeb;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background);
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 40px 20px;
+  background-color: var(--foreground);
+}
+
+.intro {
+  margin: 40px 0;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 28px;
+  }
+  .intro {
+    text-align: center;
+  }
+  .description {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --background: #af7f43;
+    --foreground: #af7f43;
+    --bg-faded: rgba(250, 218, 179, 0.163);
+    --text-primary: #fff;
+    --text-secondary: #e0d1bc;
+    --button-secondary-border: #878787;
+  }
+}

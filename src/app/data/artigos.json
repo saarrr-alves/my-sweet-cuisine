@@ -1,0 +1,187 @@
+{
+    "receitas": [
+        {
+            "id": 1,
+            "title": "Delicioso Bolo de Chocolate",
+            "description": "Este bolo de chocolate é rico, úmido e perfeito para qualquer ocasião. Feito com cacau em pó de alta qualidade e finalizado com uma ganache de chocolate cremosa.",
+            "author": "Jane Doe",
+            "date": "2023-10-01",
+            "image": "https://images.unsplash.com/photo-1613323885373-6e91a09b598b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "2 xícaras de farinha de trigo",
+                "2 xícaras de açúcar",
+                "3/4 de xícara de cacau em pó sem açúcar",
+                "2 colheres de chá de fermento em pó",
+                "1 1/2 colheres de chá de bicarbonato de sódio",
+                "1 colher de chá de sal",
+                "1 xícara de buttermilk (leite de manteiga)",
+                "1/2 xícara de óleo vegetal",
+                "2 ovos grandes",
+                "2 colheres de chá de extrato de baunilha",
+                "1 xícara de água fervente"
+            ],
+            "preperation": [
+                "Pré-aqueça o forno a 175°C (350°F). Unte e enfarinhe duas formas redondas de 23cm.",
+                "Em uma tigela grande, misture a farinha, o açúcar, o cacau, o fermento, o bicarbonato e o sal.",
+                "Adicione o buttermilk, o óleo vegetal, os ovos e a baunilha à mistura de farinha e mexa até ficar bem homogêneo.",
+                "Adicione cuidadosamente a água fervente à massa e misture em velocidade baixa. A massa ficará rala.",
+                "Despeje a massa uniformemente nas formas preparadas.",
+                "Asse por 30-35 minutos ou até que um palito inserido no centro saia limpo.",
+                "Deixe os bolos esfriarem nas formas por 10 minutos, depois retire-os para esfriar completamente sobre uma grade.",
+                "Cubra com sua cobertura de chocolate favorita e aproveite!"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Torta de Maçã Clássica",
+            "description": "Uma torta de maçã tradicional feita com maçãs frescas, canela e uma massa caseira crocante. Perfeita para sobremesa ou um lanche doce.",
+            "author": "John Smith",
+            "date": "2023-09-15",
+            "image": "https://images.unsplash.com/photo-1562007908-72e11e85b1cd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "2 1/2 xícaras de farinha de trigo",
+                "1 colher de chá de sal",
+                "1 xícara de manteiga sem sal, gelada e cortada em cubos pequenos",
+                "1/4 a 1/2 xícara de água gelada",
+                "6 a 7 xícaras de maçãs descascadas e fatiadas finamente",
+                "3/4 de xícara de açúcar",
+                "2 colheres de sopa de farinha de trigo",
+                "1 colher de chá de canela em pó",
+                "1/4 de colher de chá de noz-moscada moída",
+                "1 colher de sopa de suco de limão"
+            ],
+            "preperation": [
+                "Em uma tigela grande, misture a farinha e o sal. Adicione a manteiga até que a mistura pareça migalhas grossas. Adicione gradualmente a água gelada, mexendo com um garfo até que a massa se una ao ser pressionada.",
+                "Divida a massa ao meio. Forme um disco com cada metade. Embrulhe em plástico filme e leve à geladeira por pelo menos 1 hora.",
+                "Pré-aqueça o forno a 220°C (425°F).",
+                "Em uma superfície levemente enfarinhada, abra um disco de massa para caber em uma forma de torta de 23cm. Transfira a massa para a forma.",
+                "Em uma tigela grande, misture as maçãs, o açúcar, a farinha, a canela, a noz-moscada e o suco de limão. Misture para envolver as maçãs uniformemente. Despeje a mistura de maçã na crosta da torta.",
+                "Abra o segundo disco de massa e coloque sobre o recheio. Corte o excesso de massa, sele as bordas e faça cortes na crosta superior para permitir a saída do vapor.",
+                "Asse por 45-50 minutos ou até que a crosta esteja dourada e o recheio borbulhando. Cubra as bordas com papel alumínio se dourarem rápido demais.",
+                "Deixe esfriar em uma grade antes de servir."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Bolo de Limão com Calda",
+            "description": "Um bolo de limão leve e cítrico que é refrescante e delicioso. Finalizado com uma cobertura de limão picante.",
+            "author": "Emily Johnson",
+            "date": "2023-08-20",
+            "image": "https://images.unsplash.com/photo-1668175582163-b629225fea3f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "1 1/2 xícaras de farinha de trigo",
+                "1 colher de chá de fermento em pó",
+                "1/2 colher de chá de sal",
+                "1/2 xícara de manteiga sem sal, amolecida",
+                "1 xícara de açúcar",
+                "2 ovos grandes",
+                "1/2 xícara de leite",
+                "Raspas de 2 limões",
+                "1/4 de xícara de suco de limão fresco",
+                "1 xícara de açúcar de confeiteiro"
+            ],
+            "preperation": [
+                "Pré-aqueça o forno a 175°C (350°F). Unte e enfarinhe uma forma de bolo inglês.",
+                "Em uma tigela média, misture a farinha, o fermento e o sal.",
+                "Em uma tigela grande, bata a manteiga e o açúcar até ficar leve e fofinho. Bata os ovos um a um.",
+                "Misture as raspas de limão.",
+                "Adicione alternadamente a mistura de farinha e o leite à mistura de manteiga, começando e terminando com a farinha. Misture até ficar homogêneo.",
+                "Despeje a massa na forma preparada e alise o topo.",
+                "Asse por 50-60 minutos ou até que um palito inserido no centro saia limpo.",
+                "Enquanto o bolo assa, prepare a calda de limão misturando o suco de limão e o açúcar de confeiteiro até ficar liso.",
+                "Quando o bolo estiver pronto, retire do forno e deixe esfriar por 10 minutos. Faça furos no topo do bolo com um palito e despeje a calda de limão sobre o bolo ainda morno.",
+                "Deixe o bolo esfriar completamente antes de fatiar e servir."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Cupcakes Red Velvet",
+            "description": "Estes cupcakes red velvet são macios, úmidos e cobertos com um rico glacê de cream cheese. Perfeitos para festas e celebrações.",
+            "author": "Michael Brown",
+            "date": "2023-07-30",
+            "image": "https://images.unsplash.com/photo-1610851467752-80063fc47290?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "2 1/2 xícaras de farinha de trigo",
+                "1 1/2 xícaras de açúcar",
+                "1 colher de chá de bicarbonato de sódio",
+                "1 colher de chá de sal",
+                "1 colher de chá de cacau em pó",
+                "1 1/2 xícaras de óleo vegetal",
+                "1 xícara de buttermilk",
+                "2 ovos grandes",
+                "2 colheres de sopa de corante alimentício vermelho",
+                "1 colher de chá de extrato de baunilha",
+                "1 colher de chá de vinagre branco",
+                "225g de cream cheese amolecido",
+                "1/2 xícara de manteiga sem sal, amolecida",
+                "4 xícaras de açúcar de confeiteiro",
+                "1 colher de chá de extrato de baunilha"
+            ],
+            "preperation": [
+                "Pré-aqueça o forno a 175°C (350°F). Forre uma forma de muffin com forminhas de papel.",
+                "Em uma tigela média, peneire a farinha, o açúcar, o bicarbonato, o sal e o cacau.",
+                "Em uma tigela grande, misture o óleo vegetal, o buttermilk, os ovos, o corante, a baunilha e o vinagre.",
+                "Adicione gradualmente os ingredientes secos aos molhados e misture até incorporar.",
+                "Divida a massa uniformemente entre as forminhas, preenchendo cerca de 2/3 de cada uma.",
+                "Asse por 18-20 minutos ou até que um palito inserido no centro saia limpo.",
+                "Deixe os cupcakes esfriarem completamente sobre uma grade.",
+                "Para a cobertura, bata o cream cheese e a manteiga até ficar homogêneo. Adicione gradualmente o açúcar de confeiteiro e a baunilha e bata até ficar fofinho.",
+                "Cubra os cupcakes frios com o glacê de cream cheese e decore como desejar."
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Pão de Banana com Nozes",
+            "description": "Um pão de banana úmido e saboroso, repleto de pedaços crocantes de nozes. Perfeito para o café da manhã ou um lanche.",
+            "author": "Sarah Lee",
+            "date": "2023-06-10",
+            "image": "https://images.unsplash.com/photo-1632931057819-4eefffa8e007?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "2 a 3 bananas maduras, amassadas",
+                "1/3 de xícara de manteiga derretida",
+                "3/4 de xícara de açúcar",
+                "1 ovo batido",
+                "1 colher de chá de extrato de baunilha",
+                "1 colher de chá de bicarbonato de sódio",
+                "1 pitada de sal",
+                "1 1/2 xícaras de farinha de trigo",
+                "1/2 xícara de nozes picadas"
+            ],
+            "preperation": [
+                "Pré-aqueça o forno a 175°C (350°F). Unte uma forma de pão.",
+                "Em uma tigela grande, misture as bananas amassadas com a manteiga derretida.",
+                "Adicione o açúcar, o ovo e a baunilha e misture bem.",
+                "Polvilhe o bicarbonato e o sal sobre a mistura e misture.",
+                "Adicione a farinha e mexa até ficar homogêneo. Incorpore as nozes picadas.",
+                "Despeje a massa na forma preparada.",
+                "Asse por 60-65 minutos ou até que um palito inserido no centro saia limpo.",
+                "Deixe esfriar na forma por 10 minutos, depois retire para esfriar completamente sobre uma grade antes de fatiar."
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Cheesecake Clássico",
+            "description": "Um cheesecake clássico, cremoso e suave, com uma crosta de biscoito amanteigada. Perfeito para qualquer ocasião especial.",
+            "author": "David Wilson",
+            "date": "2023-05-05",
+            "image": "https://images.unsplash.com/photo-1524351199678-941a58a3df50?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                "200g de biscoitos digestivos, triturados",
+                "100g de manteiga derretida",
+                "900g de cream cheese, amolecido",
+                "1 xícara de açúcar",
+                "1 colher de chá de extrato de baunilha",
+                "4 ovos grandes",
+                "1 xícara de creme de leite fresco"
+            ],
+            "preperation": [
+                "Pré-aqueça o forno a 160°C (325°F). Misture os biscoitos triturados com a manteiga derretida e pressione na base de uma forma de mola de 23cm. Asse por 10 minutos e deixe esfriar.",
+                "Em uma tigela grande, bata o cream cheese até ficar cremoso. Adicione o açúcar e a baunilha e bata até ficar homogêneo.",
+                "Adicione os ovos um a um, batendo bem após cada adição. Misture o creme de leite até incorporar.",
+                "Despeje a mistura sobre a crosta resfriada.",
+                "Asse por 55-60 minutos ou até que o centro esteja quase firme. Desligue o forno e deixe o cheesecake esfriar dentro do forno com a porta entreaberta por 1 hora.",
+                "Refrigere por pelo menos 4 horas ou durante a noite antes de desenformar e servir."
+            ]
+        }
+    ]
+}

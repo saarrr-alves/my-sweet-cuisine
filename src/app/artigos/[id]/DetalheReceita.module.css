@@ -1,0 +1,152 @@
+.container {
+    --bg-color: #fdfaf6;
+    --accent-color: #cd2718;
+    --text-main: #2d2d2d;
+    --text-muted: #666;
+    
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: var(--text-main);
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.article {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.separator { margin: 0 10px; }
+
+.imageWrapper {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 16 / 15;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-style: italic;
+    color: var(--text-muted);
+    border-left: 4px solid var(--accent-color);
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.gridContent h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.listIngredients, .listPrep {
+    padding: 0;
+    list-style: none;
+}
+
+.listIngredients li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.listIngredients li::before {
+    content: "▹";
+    color: var(--accent-color);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.listPrep li {
+    counter-increment: step-counter;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    display: flex;
+}
+
+.listPrep li::before {
+    content: counter(step-counter);
+    background: var(--accent-color);
+    color: white;
+    font-weight: bold;
+    min-width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.btnBack {
+    position: fixed;
+    top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.btnBack:hover span {
+    text-decoration: underline;
+    transform: translateX(-4px);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .article { padding: 20px; }
+    .title { font-size: 1.8rem; }
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        --bg-color: #1a1612;
+        --text-main: #f5f5f5;
+        --text-muted: #b0a496;
+    }
+
+    .article {
+        background: #26211c;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    .gridContent h2 {
+        border-bottom-color: #3d352d;
+    }
+
+    .listIngredients li {
+        border-bottom-color: #3d352d;
+    }
+}

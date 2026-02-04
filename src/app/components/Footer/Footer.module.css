@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    padding: 20px; 
+    background-color: var(--text-secondary);
+    color: var(--background);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: auto; 
+    border-top: 1px solid var(--title-span);
+}
+
+.footer p {
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 30px 20px;
+        font-size: 12px;
+    }
+}
