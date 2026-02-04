@@ -9,6 +9,16 @@ type Props = {
     }>;
 }
 
+export async function generateStaticParams() {
+    return receitas.map((receita) => ({
+        id: receita.id.toString(),
+    }));
+}
+
+async function getReceitaById(id: number) {
+    return receitas.find((r) => r.id == id);
+}
+
 export const generateMetadata = async ({ params }: Props) => { 
     const { id } = await params;
 
@@ -40,7 +50,7 @@ export const generateMetadata = async ({ params }: Props) => {
 const DetalheReceita = async ({params} : Props) => {
     const { id } = await params;
 
-    const details =  receitas.find((receita) => receita.id == id);
+    const details =  await getReceitaById(id);
 
     if (!details)
         return notFound();
