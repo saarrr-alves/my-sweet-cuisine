@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - main
+    paths: # Só dispara se arquivos nessa pasta mudarem
+      - "src/**" # só mudanças no código fonte
+      - ".github/workflows/**" # mudanças nos próprios pipelines
   workflow_dispatch: # habilita o botão "Run Workflow" no Github Actions
 jobs:
   # Primeiro job: Build
@@ -18,10 +21,40 @@ jobs:
       - name: Instalação do Node
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '20'
+          cashe: "npm"
+          cashe-dependency-path: package-lock.json
           
       - name: Instalação das depêndencias
         run: npm install
         
       - name: Rodar o build
         run: npm run build
+
+  # Secondo job
+  tests:
+    runs-on: ubuntu-latest #Imagem da maquina usada no CI
+    needs: build
+
+    steps:
+      - name: checkout do código
+        uses: actions/checkout@v6
+
+      - name: Instalação do Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cashe: "npm"
+          cashe-dependency-path: package-lock.json
+
+      - name: Instalação das depêndencias
+        run: npm install
+        
+      - name: Rodar lint
+        run: npm run lint
+
+      - name: Verificar formatação
+        run: npm run formart -- -- check
+
+      - name: Rodar testes
+        run: npm run test
