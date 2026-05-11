@@ -22,8 +22,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cashe: "npm"
-          cashe-dependency-path: package-lock.json
+          cache: "npm"
+          cache-dependency-path: package-lock.json
           
       - name: Instalação das depêndencias
         run: npm install
