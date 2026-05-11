@@ -44,8 +44,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cashe: "npm"
-          cashe-dependency-path: package-lock.json
+          cache: "npm"
+          cache-dependency-path: package-lock.json
 
       - name: Instalação das depêndencias
         run: npm install
@@ -54,7 +54,7 @@ jobs:
         run: npm run lint
 
       - name: Verificar formatação
-        run: npm run formart -- -- check
+        run: npm run format -- -- check
 
       - name: Rodar testes
         run: npm run test
