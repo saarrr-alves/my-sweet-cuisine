@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sweet Cuisine",
-  description: "Seu destino definitivo para receitas deliciosas e dicas culinárias.",
+  description:
+    "Seu destino definitivo para receitas deliciosas e dicas culinárias.",
 };
 
 export default function RootLayout({
