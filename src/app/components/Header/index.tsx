@@ -1,5 +1,6 @@
 import style from "./Header.module.css";
 import Image from "next/image";
+import Title from "../Title/index";
 
 const Header = () => {
   return (
@@ -11,9 +12,9 @@ const Header = () => {
         width={120}
         height={120}
       />
-      <h1 className={style.title}>
+      <Title>
         Bem-Vindos ao <span>Sweet Cuisine</span>
-      </h1>
+      </Title>
     </header>
   );
 };

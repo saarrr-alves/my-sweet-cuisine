@@ -2,6 +2,7 @@ import { Receita } from "../../types/types";
 import Link from "next/link";
 import styles from "./Card.module.css";
 import Image from "next/image";
+import Title from "../Title/index";
 
 type Props = {
   receita: Receita;
@@ -21,7 +22,9 @@ const Card = ({ receita }: Props) => {
           height={200}
         />
         <div className={styles.content}>
-          <h3 className={styles.title}>{title}</h3>
+          <div className={styles.title}>
+            <Title>{title}</Title>
+          </div>
           <p className={styles.descricao}>{description}</p>
           <div className={styles.detailsRow}>
             <p>
