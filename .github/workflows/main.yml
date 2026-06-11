@@ -1,14 +1,22 @@
 # Nome do Workflow, aparece na "Actions"
 name: Pipeline CI/CD
-# Define quando o pipeline vai ser ativado/disparado
+
+# DEFINE O DISPARO EM PUSH E PULL REQUEST NA MAIN
 on:
   push:
     branches:
       - main
-    paths: # Só dispara se arquivos nessa pasta mudarem
-      - "src/**" # só mudanças no código fonte
-      - ".github/workflows/**" # mudanças nos próprios pipelines
-  workflow_dispatch: # habilita o botão "Run Workflow" no Github Actions
+    paths:
+      - "src/**"
+      - ".github/workflows/**"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - ".github/workflows/**"
+  workflow_dispatch: # Habilita o botão manual no GitHub
+
 jobs:
   # Primeiro job: Build
   build:
@@ -16,7 +24,7 @@ jobs:
 
     steps:
       - name: checkout do código
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Instalação do Node
         uses: actions/setup-node@v4
@@ -26,7 +34,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Instalação das depêndencias
-        run: npm install
+        run: npm ci
 
       - name: Rodar o build
         run: npm run build
@@ -38,7 +46,7 @@ jobs:
 
     steps:
       - name: checkout do código
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Instalação do Node
         uses: actions/setup-node@v4
@@ -48,7 +56,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Instalação das depêndencias
-        run: npm install
+        run: npm ci
 
       - name: Rodar lint
         run: npm run lint
@@ -59,14 +67,14 @@ jobs:
       - name: Rodar testes
         run: npm run test
 
-# Terceiro job
+  # Terceiro job
   deploy:
     runs-on: ubuntu-latest #Imagem da maquina usada no CI
     needs: tests
 
     steps:
       - name: checkout do código
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Instalação do Node
         uses: actions/setup-node@v4
