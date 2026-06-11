@@ -16,7 +16,11 @@ Este repositório contém o código de um site de culinária doce, ideal para pa
    ```bash
    cd my-sweet-cuisine
    ```
-3. Execute no terminal do projeto:
+3. Instale as dependências necessárias do projeto:
+   ```bash
+   npm install
+   ```
+4. Execute no terminal do projeto:
    ```bash
    npm run dev
    ```
