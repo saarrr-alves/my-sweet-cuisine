@@ -70,7 +70,7 @@ Sweet-Cuisine/
 ## 🚀 Como Executar Localmente
 1. Clone o repositório:
 ```
-git clone https://github.com/saarrr-alves/Sweet-Cuisine.git
+git clone https://github.com/saarrr-alves/my-sweet-cuisine.git
 cd my-sweet-cuisine
 ```
 
