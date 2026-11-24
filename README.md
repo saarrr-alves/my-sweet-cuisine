@@ -70,19 +70,17 @@ Sweet-Cuisine/
 ## 🚀 Como Executar Localmente
 1. Clone o repositório:
 ```
-git clone [https://github.com/saarrr-alves/Sweet-Cuisine.git](https://github.com/saarrr-alves/Sweet-Cuisine.git)
-cd Sweet-Cuisine
+git clone https://github.com/saarrr-alves/Sweet-Cuisine.git
+cd my-sweet-cuisine
 ```
 
 2. Instale as dependências:
 ```
-Bash
 npm install
 ```
 
 3. Inicie o servidor de desenvolvimento:
 ```
-Bash
 npm run dev
 ```
 
