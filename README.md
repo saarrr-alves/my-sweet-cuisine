@@ -14,11 +14,11 @@ Plataforma web de receitas e artigos culinários desenvolvida com **Next.js (App
 
 ## 📸 Prévia da Aplicação
 
-<img src="./src/app/images/preview-1.png" alt="Tela Inicial - Sweet Cuisine" width="100%" />
+<img src="./src/app/images/sweet cuisine prev1.png" alt="Tela Inicial - Sweet Cuisine" width="100%" />
 
 <p align="center">
-  <img src="./src/app/images/preview-2.png" alt="Listagem de Receitas - Sweet Cuisine" width="49%" />
-  <img src="./src/app/images/preview-3.png" alt="Página de Detalhes do Artigo - Sweet Cuisine" width="49%" />
+  <img src="./src/app/images/sweet cuisine prev2.png" alt="Listagem de Receitas - Sweet Cuisine" width="49%" />
+  <img src="./src/app/images/sweet cuisine prev3.png" alt="Página de Detalhes do Artigo - Sweet Cuisine" width="49%" />
 </p>
 
 ## ✨ Funcionalidades
